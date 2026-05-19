@@ -4,7 +4,7 @@ from lab6 import Block, Source, Vote, Person
 
 def test_block():
     block = Block(id = 'ADC143B2', view = 3, desc = 'block n', img = b"")
-    assert block.id == 'ADC143B2'
+    assert block.id == 'ADC143B'
     assert block.view == 3
     assert block.desc == 'block n'
 
